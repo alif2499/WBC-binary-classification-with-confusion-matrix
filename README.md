@@ -1,2 +1,5 @@
-# WBC-binary-classification-with-confusion-matrix
-This notebook contains the binary classification of white blood cells
+# WBC-binary-classification-with-confusion-matrix-using-CNN
+WBC or White Blood Cell constitutes of different component which plays a vital role in our body defense system. Here we have used Convolutional Neural Network to classify the 4 major components of WBC into two classes, mononuclear & polynuclear. Also the confusion matrix, accuracy curve and loss curve are shown.
+
+# Dataset Description
+Here the BCCD dataset is used. The whole dataset was splitted into three categories, train, validation and test set. The model was trained on the train set and then the validation set was used to validate our model. The test shows us the accuracy our model performs on real world data. This is the link to the dataset: https://www.kaggle.com/alifrahman/binary-wbc
